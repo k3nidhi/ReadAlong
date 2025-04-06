@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ReadAlong for Kids</title>
+  <script src="main.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-yellow-50 flex flex-col items-center justify-center h-screen p-4">
+
+  <h1 class="text-3xl font-bold mb-6">📖 ReadAlong for Kids</h1>
+
+  <select id="language" class="mb-4 p-2 rounded border border-gray-300">
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="kn">Kannada</option>
+  </select>
+
+  <button id="loadSentence" class="bg-blue-500 text-white px-4 py-2 rounded mb-4">Load Sentence</button>
+
+  <div id="sentenceBox" class="text-xl font-medium mb-6"></div>
+
+  <div class="flex gap-4">
+    <button id="speakBtn" class="bg-green-500 text-white px-4 py-2 rounded">🔊 Speak</button>
+    <button id="listenBtn" class="bg-purple-500 text-white px-4 py-2 rounded">🎤 Repeat</button>
+  </div>
+
+  <div id="feedback" class="mt-6 text-2xl"></div>
+
+</body>
+</html>
