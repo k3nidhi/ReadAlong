@@ -16,7 +16,15 @@ A simple web app that helps rural kids improve reading and pronunciation skills 
 - Database: MySQL
 
 ## 📦 Folder Structure
-readalong/ ├── index.html ├── main.js ├── speak.php ├── get_story.php ├── db_config.php └── assets/
+```
+readalong/
+├── index.html
+├── main.js
+├── speak.php
+├── get_story.php
+├── db_config.php
+└── assets/
+```
 
 ## 🚀 How to Run (Locally with XAMPP)
 1. Place the folder inside `htdocs/` (XAMPP directory)
