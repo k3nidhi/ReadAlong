@@ -15,7 +15,7 @@ A simple web app that helps rural kids improve reading and pronunciation skills 
 - AI: HuggingFace Transformers (TTS & STT)
 - Database: MySQL
 
-![Preview](./English_positive (2).png)
+![Preview](./English_positive(2).png)
 ![Preview](./ENGLISH_negative.png)
 ![Preview](./Kannada_positive.png)
 ![Preview](./hindi_negative.png)
